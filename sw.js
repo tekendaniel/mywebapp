@@ -22,7 +22,7 @@ cacheName: 'css-cache',
 
 
 workbox.routing.registerRoute(
-  'index.html',
+  'https://tekendaniel.github.io/mywebapp/index.html',
   workbox.strategies.networkFirst()
 );
 
