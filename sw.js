@@ -23,7 +23,7 @@ cacheName: 'css-cache',
 
 workbox.routing.registerRoute(
   '/index.html',
-  workbox.strategies.staleWhileRevalidate()
+  workbox.strategies.networkFirst()
 );
 
 workbox.routing.registerRoute(
