@@ -77,6 +77,8 @@ function askPermission() {
   });
 }
 
+askPermission();
+
 
 
 } else {
