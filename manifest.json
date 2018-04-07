@@ -1,0 +1,22 @@
+{
+  "short_name": "MyWebApp",
+  "name": "Mi primera web App",
+  "icons": [
+    {
+      "src": "img/4848.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/9696.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/192192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html"
+}
