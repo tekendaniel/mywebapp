@@ -5,14 +5,6 @@ if (workbox) {
 
 
   workbox.routing.registerRoute(
-  	/.*\.html/,
-  	workbox.strategies.staleWhileRevalidate({
-
-  		cacheName : 'html-cache',
-  	})
-  	);
-
-  workbox.routing.registerRoute(
   new RegExp('.*\.js'),
   workbox.strategies.networkFirst()
 );
