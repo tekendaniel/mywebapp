@@ -27,6 +27,12 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
+  'https://tekendaniel.github.io/mywebapp/index.html',
+  workbox.strategies.networkFirst()
+);
+
+
+workbox.routing.registerRoute(
 // Cache image files
 /.*\.(?:png|jpg|jpeg|svg|gif)/,
 // Use the cache if it's available
