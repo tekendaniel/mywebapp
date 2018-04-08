@@ -26,6 +26,7 @@ workbox.routing.registerRoute(
   workbox.strategies.networkFirst()
 );
 
+
 workbox.routing.registerRoute(
   'https://tekendaniel.github.io/mywebapp/index.html',
   workbox.strategies.networkFirst()
