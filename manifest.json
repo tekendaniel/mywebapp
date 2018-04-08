@@ -1,6 +1,13 @@
 {
+  "dir": "ltr",
+  "lang": "es",
   "short_name": "MyWebApp",
   "name": "Mi primera web App",
+  "description": "Nueva Aplicacion de prueba para generar nuevas",
+  "start_url": "index.html",
+  "background_color": "#2196F3",
+  "display": "standalone",
+  "theme_color": "#F0F3F4",
   "icons": [
     {
       "src": "img/4848.png",
@@ -18,8 +25,5 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "index.html",
-  "background_color": "#2196F3",
-  "display": "standalone",
-  "theme_color": "#F0F3F4"
+  
 }
